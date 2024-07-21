@@ -51,10 +51,10 @@
 
 ![Sourcetree_push2](../_image/GitTutorial/Sourcetree_push2.png)
 
-如果说需要登陆账户，就自信登陆！（这里是github）
+如果说需要登录账户，就自信登录！（这里是github）
 
 ![Sourcetree_push3](../_image/GitTutorial/Sourcetree_push3.png)
 
-登陆完之后，Sourcetree会给你贴心地存起来，在这里：
+登录完之后，Sourcetree会给你贴心地存起来，在这里：
 
 ![Sourcetree_push4](../_image/GitTutorial/Sourcetree_push4.png)
