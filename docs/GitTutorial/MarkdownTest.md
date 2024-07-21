@@ -1,6 +1,6 @@
 ## picture
 
-![logo](..\_image\logo.jpg)
+![logo](../_image/logo.jpg)
 
 ## math
 - 行内公式：
