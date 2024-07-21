@@ -16,7 +16,7 @@
       homepage: 'home.md',
       loadNavbar: true,             // -- 导航栏
       // -- 右上角github链接
-      repo: 'https://github.com/hlmandy/gitpagetest',
+      repo: 'https://github.com/Penguin-Go/PenguinWiki',
       loadSidebar: true,
       //subMaxLevel: 2,
       // -- 字数统计
@@ -118,12 +118,14 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
   <script>
+      // register https://github.com/settings/applications/new
+      // https://github.com/settings/applications/2647666
       var gitalk = new Gitalk({
-          clientID: 'Ov23liIqEUWOMucw5kC4',
-          clientSecret: '1d8223ff357b41fbbc181e1f3f9ba7b5fe69d904',
-          repo: 'gitpagetest',
-          owner: 'hlmandy',
-          admin: ['hlmandy'],
+          clientID: 'Ov23liftvBmMqLfABGCy',
+          clientSecret: '3124e626f7c96cb26b3dc68ccd195abb83aa3e9c',
+          repo: 'PenguinWiki',
+          owner: 'Penguin-Go',
+          admin: ['Penguin-Go'],
           title: `Document comment ${location.hash.match(/#(.*?)([?]|$)/)[1]}`,
           id: location.hash.match(/#(.*?)([?]|$)/)[1],  // 存放评论的仓库
           enableHotKey: true,	// 提交评论快捷键(cmd/ctrl + enter)
