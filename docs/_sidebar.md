@@ -1,6 +1,6 @@
 <!-- docs/_sidebar.md -->
 
 * [首页](/)
-* [GitTutorial](GitTutorial/Main.md)
-  * [Sourcetree](GitTutorial/Sourcetree.md)
-  * [二级标题](GitTutorial/MarkdownTest.md)
+* [GitTutorial](01_GitTutorial/01_GitTutorial.md)
+  * [Sourcetree](01_GitTutorial/02_Sourcetree.md)
+* [MarkdownTest](02_MarkdownTest.md)
