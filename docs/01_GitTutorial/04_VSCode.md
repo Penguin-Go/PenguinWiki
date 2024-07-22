@@ -24,8 +24,9 @@ clone完成后打开：
 ## 2. 更改仓库
 ### 2.1 push
 
+![[../_image/GitTutorial/vscode_push.png]]
 
-
+![[../_image/GitTutorial/vscode_push2.png]]
 ### 2.2 pull
 ![[../_image/GitTutorial/vscode_pull2.png]]
 
