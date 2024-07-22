@@ -1,0 +1,32 @@
+## 1. 管理仓库
+点击左边的git标签即可打开Git管理GUI
+
+![[../_image/GitTutorial/vscode_clone.png]]
+
+### 1.1 新建仓库
+
+1. 在服务器端新建仓库
+2. 在服务器端复制仓库HTTP地址
+
+![Github_copy_HTTPS](../_image/GitTutorial/Github_copy_HTTPS.png)
+
+3. 克隆到本地
+
+点击git远程仓库之后选择保存在本地的地址
+![[../_image/GitTutorial/vscode_clone2.png]]
+
+等待clone...
+![[../_image/GitTutorial/vscode_clone3.png]]
+
+clone完成后打开：
+![[../_image/GitTutorial/vscode_clone4.png]]
+
+## 2. 更改仓库
+### 2.1 push
+
+
+
+### 2.2 pull
+![[../_image/GitTutorial/vscode_pull2.png]]
+
+![[../_image/GitTutorial/vscode_pull3.png]]
