@@ -1,6 +1,6 @@
 ## picture
 
-![logo](../_image/logo.jpg)
+![logo](_assets/logo.jpg)
 
 ## math
 - 行内公式：
@@ -42,15 +42,20 @@ cout << "hello word!" << endl;
 
 ## callout
 
-> [!tip|style:callout]> 填写你要的内容
+> [!tip|style:callout]
+> 填写你要的内容
 
-> [!NOTE]> NOTE
+> [!NOTE]
+NOTE
 
-> [!TIP]> TIP
+> [!TIP]
+> TIP
 
-> [!WARNING]> WARNING
+> [!WARNING]
+>  WARNING
 
-> [!DANGER]> DANGER
+> [!DANGER]
+> DANGER
 
 > [!NOTE|style:flat]
 > An alert of type 'note' using alert specific style 'flat' which overrides global style 'callout'.
