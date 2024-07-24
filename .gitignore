@@ -1,3 +1,5 @@
 docs/_image/ps/
 *.bat
 .obsidian/
+.idea/
+.vscode/
