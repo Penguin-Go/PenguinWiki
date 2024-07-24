@@ -1,38 +1,37 @@
-# 安装篇
+# GitTutorial
 
-## Git（必须）
-#mandy
-首先，需要安装一个git工具
+> [!TIP]
+> 本页施工ing
+
+## 安装篇
+
+首先，需要安装一个git
 https://git-scm.com/downloads
 
-## Git GUI 工具
-#mandy
-### Sourcetree
-https://www.sourcetreeapp.com/
+## 管理篇
+待施工
 
-# 管理篇
-#lz
 ### GitHub
 
 ### Gitee
 
 ### Gitlab
 
-# 基础知识篇
-#lz
+## 基础知识篇
+待施工
 
-# 实际操作篇
-## Git Bash
-#lz
+## 实际操作篇
+### Git Bash
+待施工
 
-## Sourcetree
+### Sourcetree
 [Sourcetree](03_Sourcetree.md)
 
-## Visual Studio Code
-[0VSCode](04_VSCode.md)
+### Visual Studio Code
+[VSCode](04_VSCode.md)
 
-## Visual Studio 2022
-#rainbow
+### Visual Studio 2022
+待施工
 
-## Jetbrains
-#rainbow
+### Jetbrains
+待施工

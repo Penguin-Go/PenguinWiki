@@ -8,9 +8,7 @@
 
 ## 配置方法
 
-配置路径：`编辑` - `配置` - `高级设置` - `编辑器` - `extensions.zotero.findPDFs.resolvers`
-
-配置路径：`高级` - `高级设置` - `编辑器` - `extensions.zotero.findPDFs.resolvers`
+配置路径：`编辑` - `设置` - `高级` - `编辑器` - `extensions.zotero.findPDFs.resolvers`
 
 支持单/多解析器，配置内容示例如下：
 
