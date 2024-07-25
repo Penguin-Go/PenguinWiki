@@ -4,21 +4,23 @@ def generate_sidebar(dir_path, output_file):
     def traverse_directory(current_path, indent_level):
         sidebar_contents = []
         for item in sorted(os.listdir(current_path)):
-            if item.startswith('_'):
+            if item.startswith('_') or item.startswith('.'):
                 continue
             item_path = os.path.join(current_path, item)
             item_caption = get_name(item)
             if os.path.isdir(item_path):
                 if has_same_name_in_folder(item_path):
                     relative_path = os.path.relpath(item_path, dir_path).replace("\\", "/")
-                    sidebar_contents.append('  ' * indent_level + f"* [{item_caption}]({relative_path}/{item}.md)\n")
+                    sidebar_contents.append('  ' * indent_level + f"* [{item_caption}](/{relative_path}/{item}.md)\n")
+                    # sidebar_contents.append('  ' * indent_level + f"* [{item_caption}]({dir_path.replace("\\", "/")}/{item}.md)\n")
                 else:
                     sidebar_contents.append('  ' * indent_level + f"* {item_caption}\n")
                 sidebar_contents+=traverse_directory(item_path, indent_level + 1)
             elif item.endswith('.md'):
                 if get_name(item) != get_name(current_path):
                     relative_path = os.path.relpath(item_path, dir_path).replace("\\", "/")
-                    sidebar_contents.append('  ' * indent_level + f"* [{item_caption}]({relative_path})\n")
+                    sidebar_contents.append('  ' * indent_level + f"* [{item_caption}](/{relative_path})\n")
+                    # sidebar_contents.append('  ' * indent_level + f"* [{item_caption}]({dir_path.replace("\\", "/")})\n")
         return sidebar_contents
 
     sidebar_contents = traverse_directory(dir_path, 0)

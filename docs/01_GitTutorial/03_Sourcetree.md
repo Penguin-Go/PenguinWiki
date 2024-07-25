@@ -3,7 +3,9 @@
 ## 1. 下载&安装
 
 **下载：**
+
 官网下载： [https://www.sourcetreeapp.com/](https://www.sourcetreeapp.com/)
+
 ![sourcetree_homepage](_assets/sourcetree_homepage.png)
 
 **安装：**
@@ -15,9 +17,11 @@
 ![sourcetree_安装2](_assets/sourcetree_安装2.png)
 
 设置全局用户名/邮箱
+
 ![sourcetree_安装3](_assets/sourcetree_安装3.png)
 
 可以暂时不设SSH密钥
+
 ![sourcetree_安装4](_assets/sourcetree_安装4.png)
 
 安装完成界面：
