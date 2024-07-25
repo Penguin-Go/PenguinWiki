@@ -141,6 +141,7 @@ git reflog
 ![](_assets/git_reflog.png)
 
 继续 git reset
+
 ![](_assets/git_reset2.png)
 
 ## 5. 比较版本差异
@@ -153,15 +154,18 @@ git diff HEAD # HEAD是该分支当前节点的指针，可以在上面的git lo
 ```
 
 例如，我们在vscode里修改：
+
 ![](_assets/eg_vscode_git_diff.png)
 
 在gitbash里查看差异如下：
+
 ![](_assets/git_diff.png)
 
 **提交之间的差异：**
 ```bash
 git diff 提交1 提交2
 ```
+
 ![](_assets/git_diff2.png)
 
 ## 6. 分支（branch）管理
@@ -228,6 +232,7 @@ git push -u origin 分支名    ## -u 即 -upstream
 ```bash
 git log --graph --oneline --decorate --all
 ```
+
 ![](_assets/git_bash_branch_figure.png)
 
 **合并分支：**
@@ -250,8 +255,10 @@ git merge 分支1
 
 这里是一个冲突的例子：
 >`new_branch`分支下该文件如下：
+>
 >![](_assets/eg_vscode_branch_conflict.png)
 >`new_dev`分支下该文件如下：
+>
 >![](_assets/eg_vscode_branch_conflict2.png)
 
 STEP1. 查看冲突
