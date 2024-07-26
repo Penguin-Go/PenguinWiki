@@ -12,6 +12,7 @@ def generate_sidebar(dir_path, output_file):
                 if has_same_name_in_folder(item_path):
                     relative_path = os.path.relpath(item_path, dir_path).replace("\\", "/")
                     sidebar_contents.append('  ' * indent_level + f"* [{item_caption}](/{relative_path}/{item}.md)\n")
+                    # sidebar_contents.append('  ' * indent_level + f"* [{item_caption}]({dir_path.replace("\\", "/")}/{item}.md)\n")
                 else:
                     sidebar_contents.append('  ' * indent_level + f"* {item_caption}\n")
                 sidebar_contents+=traverse_directory(item_path, indent_level + 1)
@@ -19,6 +20,7 @@ def generate_sidebar(dir_path, output_file):
                 if get_name(item) != get_name(current_path):
                     relative_path = os.path.relpath(item_path, dir_path).replace("\\", "/")
                     sidebar_contents.append('  ' * indent_level + f"* [{item_caption}](/{relative_path})\n")
+                    # sidebar_contents.append('  ' * indent_level + f"* [{item_caption}]({dir_path.replace("\\", "/")})\n")
         return sidebar_contents
 
     sidebar_contents = traverse_directory(dir_path, 0)
