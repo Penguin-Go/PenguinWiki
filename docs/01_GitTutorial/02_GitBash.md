@@ -106,6 +106,8 @@ git commit -am "commit msg"
 |           `git reset --hard`            |  ❌  |  ❌  |    慎用    |
 | `git reset --mixed`<br>或<br>`git reset` |  ✅  |  ❌  | 默认方式，最常用 |
 
+### 4.1 本地分支回退 reset
+
 STEP1. 查看 git 历史
 ```bash
 # 查看git历史
@@ -129,7 +131,16 @@ git reset 3b77bdf
 
 ![](_assets/git_reset.png)
 
-**恢复到reset之前的状态：**
+### 4.2 更新本地分支回退至服务器端
+如果在本地回退之后，只用 `git push` 会失败，因此，只能采用更加暴力的方法↓
+
+```bash
+git push -u origin --force
+```
+
+![](_assets/git_reset_remote.png)
+### 4.3 恢复到 reset 之前的状态
+
 如果。。。reset之后，后悔了怎么办？
 `git reflog` 帮你找回
 
