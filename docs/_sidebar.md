@@ -1,10 +1,13 @@
 <!-- docs/_sidebar.md -->
 
 * [首页](/)
-* [GitTutorial](/01_GitTutorial/01_GitTutorial.md)
-  * [GitBash](/01_GitTutorial/02_GitBash.md)
-  * [Sourcetree](/01_GitTutorial/03_Sourcetree.md)
-  * [VSCode](/01_GitTutorial/04_VSCode.md)
+* Git教程
+  * [Allocation](/01_Git教程/01_Allocation.md)
+  * [GitBash](/01_Git教程/02_GitBash.md)
+  * [Sourcetree](/01_Git教程/03_Sourcetree.md)
+  * [VSCode](/01_Git教程/04_VSCode.md)
+  * [Github](/01_Git教程/05_Github.md)
+  * [Gitlab](/01_Git教程/06_Gitlab.md)
 * Zotero
   * [LatexCitation](/03_Zotero/01_LatexCitation.md)
   * [配置代理](/03_Zotero/02_配置代理.md)
