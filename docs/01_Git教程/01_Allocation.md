@@ -10,7 +10,7 @@ Git需要服务器来存储代码，有三种常见的Git托管平台：
 
 1. 最popular的Git托管平台：[GitHub: https://github.com/](https://github.com/)
 2. 国内的Git托管平台：[Gitee: https://gitee.com/](https://gitee.com/)
-3. 自己配服务器：[Gitlab]
+3. 自己配服务器：[GitLab](06_Gitlab.md)
 
 ## 实际操作篇
 操作Git的方式主要有三种：
