@@ -1,0 +1,40 @@
+#toc {
+    max-height: 90vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 10;
+    top: 15%;
+    right: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100vh;
+    width: 18rem;
+    padding: 1em;
+}
+  
+#toc h2 {
+    margin-top: 0;
+}
+
+#toc ul {
+    padding-left: 0;
+}
+
+#toc li {
+    margin: 5px 0;
+}
+
+#toc li::marker{
+    color: #3177BD; /* 设置点的颜色 */
+}
+
+#toc a {
+    text-decoration: none;
+    color: #3177BD;
+}
+
+#toc a:hover {
+    text-decoration:solid;
+}
