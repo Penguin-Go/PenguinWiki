@@ -18,4 +18,5 @@
   * [配置SwitchyOmega](/04_Clash/02_配置SwitchyOmega.md)
   * [配置自定义代理](/04_Clash/03_配置自定义代理.md)
   * [代理系统流量](/04_Clash/04_代理系统流量.md)
+  * [EASYCONNECT](/04_Clash/05_EASYCONNECT.md)
 * [MarkdownTest](/99_MarkdownTest/99_MarkdownTest.md)
